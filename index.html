@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week 2 Assignment</title>
+  </head>
+  <body>
+    <!--Ordered list with roman numerals-->
+    <h2>Ordered list</h2>
+    <ol type="i">
+      <li>Ugali</li>
+      <li>Chapati</li>
+      <li>Beef</li>
+      <li>Chicken</li>
+    </ol>
+    <br />
+    <!--External Image from Pexels-->
+    <h2>External Image</h2>
+    <img
+      src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      alt="Pic of a cat"
+      width="300"
+      height="200"
+    />
+    <br />
+    <br />
+    <!--Table-->
+    <h2>Table</h2>
+    <table border="2">
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Marshall Mathers</td>
+        <td>8-mile</td>
+        <td>0712345678</td>
+        <td>marshmath@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Shawn Carter</td>
+        <td>Brooklyn</td>
+        <td>0723456789</td>
+        <td>shcarter@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Calvin Broadus</td>
+        <td>Long Beach</td>
+        <td>0734567890</td>
+        <td>Calbr@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Andie Young</td>
+        <td>Queens</td>
+        <td>0745678901</td>
+        <td>dre@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Wayne Carter</td>
+        <td>New Orleans</td>
+        <td>0756789012</td>
+        <td>lwayne@gmail.com</td>
+      </tr>
+    </table>
+    <br /><br />
+    <h2>Registration Form</h2>
+    <!--Registrtion Form-->
+    <form>
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
+      <br /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+      <br /><br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter a strong password"
+        required
+      />
+      <br /><br />
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required />
+      <br /><br />
+      <label for="gender">Gender</label>
+      <input type="radio" id="gender" name="gender" value="female" /> female
+      <input type="radio" id="gender" name="gender" value="female" /> Male
+      <br /><br />
+      <label for="genre">Genre</label>
+      <input type="checkbox" id="genre" name="genre" value="hiphop" /> Hiphop
+      <input type="checkbox" id="genre" name="genre" value="rnb" /> RnB
+      <input type="checkbox" id="genre" name="genre" value="pop" /> Pop
+      <input type="checkbox" id="genre" name="genre" value="Soul" /> Soul
+      <br /><br />
+      <label for="state">State</label>
+      <select name="state" id="state">
+        <option>--Select State--</option>
+        <option value="New orleans">New Orleans</option>
+        <option value="Chicago">Chicago</option>
+        <option value="Bronx">Bronx</option>
+        <option value="Utah">Utah</option>
+      </select>
+      <br /><br />
+      <button>Register</button>
+      <input type="button" value="Cancel" />
+    </form>
+  </body>
+</html>
